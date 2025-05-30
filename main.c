@@ -57,11 +57,11 @@ int main() {
 
 void addStudent(FILE *fp) {
     struct Student s;
-    printf("Enter roll number: ");
+    printf("Enter roll number of the student: ");
     scanf("%d", &s.roll);
-    printf("Enter name: ");
+    printf("Enter name of the student: ");
     scanf(" %[^\n]", s.name);
-    printf("Enter marks: ");
+    printf("Enter marks of the student: ");
     scanf("%f", &s.marks);
 
     fseek(fp, 0, SEEK_END);
@@ -103,7 +103,7 @@ void deleteStudent(FILE *fp) {
     struct Student s;
     FILE *temp;
     int roll, found = 0;
-    printf("Enter roll number to delete: ");
+    printf("Enter roll number: ");
     scanf("%d", &roll);
 
     temp = fopen("temp.dat", "wb");
