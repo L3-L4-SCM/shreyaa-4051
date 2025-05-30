@@ -1,4 +1,4 @@
-//This is a c program
+//This is a c program on students
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
