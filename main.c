@@ -12,7 +12,7 @@ void addStudent(FILE *fp);
 void viewStudents(FILE *fp);
 void searchStudent(FILE *fp);
 void deleteStudent(FILE *fp);
-
+// Creating a MAIN FUNCTION BODY 
 int main() {
     FILE *fp;
     int choice;
